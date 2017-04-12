@@ -22,7 +22,7 @@ var PROF_URL = 'https://api.line.me/v2/bot/profile/';
 function LINE_SPNV(channeltoken, name) {
     this.channeltoken = channeltoken;
     this.name = name;
-    console.log(" LINE_SPNV Console : " + name + " start working ");
+    console.log(" LINE_BOT_SPNV Console : " + name + " start working ");
     /* Example =>
     var bot = new lineBot(define.CHANNELTOKEN, "bot-name");
     */
